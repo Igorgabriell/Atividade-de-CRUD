@@ -1,0 +1,86 @@
+/**
+ * form.css
+ * Folha de estilos do formulário do usuário.
+ *
+ * Este formulário é incluído em várias páginas do aplicativo e, quando isso 
+ * ocorrer, este arquivo deve ser importado pela folha de estilos da página. 
+ * Leia os comentários de '/css/style.css' para saber mais.
+ **/
+
+.user-form {
+    display: block;
+    width: 100%;
+    margin: auto;
+    max-width: 640px;
+}
+
+.user-form p {
+    margin: 0;
+}
+
+.user-form label {
+    display: block;
+    padding: .6rem 0 .1rem .5rem;
+}
+
+.user-form input, .user-form textarea, .user-form select, .user-form button {
+    font-family: inherit;
+    font-size: inherit;
+    padding: .25rem;
+    border: 1px dotted rgb(160, 226, 163);
+    border-radius: .3rem;
+}
+
+.user-form input, .user-form textarea, .user-form select {
+    width: 100%;
+
+}
+
+.user-form textarea {
+    height: 4rem;
+    resize: vertical;
+}
+
+.user-form p:last-child {
+    padding-bottom: 1rem;
+}
+
+.user-form button {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background: steelblue;
+    color: white;
+    cursor: pointer;
+}
+
+.user-form button:hover {
+    background: orangered;
+}
+
+.password {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.password input {
+    height: 2rem;
+}
+
+.password button, .password button:hover {
+    width: 2rem;
+    font-size: 1.2rem;
+    padding: 0;
+    border: none;
+    background: transparent;
+    color: black;
+    cursor: pointer;
+    margin-right: .5rem;
+}
+
+@media (min-width: 575px) {
+    .password input[type=password], .password input[type=text] {
+        max-width: 50%;
+    }
+
+}

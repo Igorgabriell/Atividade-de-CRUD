@@ -1,0 +1,53 @@
+/**
+ * view.css
+ * Folha de estilos de '/?p=view'.
+ **/
+
+.user-box {
+    display: table;
+    margin: 1rem auto;
+}
+
+.user-box hr {
+    border: none;
+    border-bottom: 1px dotted grey;
+}
+
+.user-image img {
+    display: block;
+    margin: auto;
+    width: 200px;
+    border-radius: .5rem;
+}
+
+.user-data h3 {
+    text-align: center;
+    margin-top: .25rem;
+}
+
+.user-data ul {
+    padding-left: 1.5rem;
+    font-size: small;
+    line-height: 1.5;
+}
+
+.user-tools {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    border-top: 1px solid grey;
+}
+
+.user-box .active {
+    color: green;
+}
+
+.user-box .inactive {
+    color: orangered;
+}
+
+@media (min-width: 426px) {
+    .user-data ul {
+        font-size: inherit;
+    }
+}

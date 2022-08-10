@@ -1,0 +1,48 @@
+/**
+ * delete.css
+ * Folha de estilos de '/?p=delete'.
+ **/
+
+.form-delete {
+    display: table;
+    margin: auto;
+}
+
+.form-delete blockquote {
+    text-align: center;
+    color: orangered;
+}
+
+.form-delete button {
+    display: block;
+    margin: 0 auto 1rem auto;
+    font-size: inherit;
+    font-family: inherit;
+    padding: .5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: .3rem;
+    cursor: pointer;
+    width: 90%;
+    max-width: 320px;
+}
+
+.form-delete button[type="button"] {
+    background: steelblue;
+}
+
+.form-delete button[type="submit"] {
+    background: orangered;
+}
+
+.form-delete button[type="button"]:hover {
+    background: rgb(21, 60, 92);
+}
+
+.form-delete button[type="submit"]:hover {
+    background: rgb(136, 37, 1);
+}
+
+.user-tools {
+    text-align: center;
+}

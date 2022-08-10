@@ -1,0 +1,66 @@
+/**
+ * home.css
+ * Folha de estilos de '/?p=home'.
+ **/
+
+.list-overflow {
+    overflow-x: auto;
+}
+
+.user-list {
+    border-spacing: .15rem;
+    border-collapse: separate;
+    border: 1px dotted grey;
+    margin: auto;
+}
+
+.user-list th {
+    background: rgb(143, 177, 137);
+    color: white;
+}
+
+.user-list th,
+.user-list td {
+    padding: .2rem .4rem;
+    white-space: nowrap;
+}
+
+.user-list tr:nth-child(even) td {
+    background: rgb(240, 240, 240);
+}
+
+.user-list tr:nth-child(odd) td {
+    background: rgb(196, 196, 196);
+}
+
+.user-list tr td:first-child {
+    text-align: right;
+}
+
+.user-list tr td:last-child {
+    text-align: center;
+}
+
+.user-edt {
+    padding-left: .45rem;
+    padding-right: .25rem;
+}
+
+.options {
+    text-align: center;
+    padding: .5rem 0;
+    font-size: small;
+    white-space: nowrap;
+}
+
+.list-overflow i[class~=fa-address-card] {
+    color: rgb(143, 177, 137);
+}
+
+.list-overflow i[class~=fa-pen-to-square] {
+    color: rgb(68, 68, 219);
+}
+
+.list-overflow i[class~=fa-trash-can] {
+    color: rgb(223, 59, 59);
+}
